@@ -1,0 +1,145 @@
+.footer__content_mobile {
+    display: none;
+}
+
+.footer {
+    background-color: $lightGreen ;
+    padding: 23px 0;
+
+    &__content {
+        display: flex;
+    }
+
+    &__info {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__contacts {
+        max-width: 170px;
+    }
+
+    &__social {
+        font-size: 24px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__policy {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__menu {
+        display: flex;
+    }
+
+    &__text {
+        font-size: 12px;
+        line-height: 1.2;
+        color: #86928B;
+        margin-bottom: 6px;
+
+    }
+}
+
+.footer-logo {
+    margin-bottom: 35px;
+}
+
+.footer-menu {
+    flex: 1 1 auto;
+    justify-content: space-evenly;
+    gap: 16px;
+
+    &__item {
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+    }
+
+    &__title {
+        font-size: 20px;
+        line-height: 1.174;
+    }
+
+    &__link {
+        font-size: 18px;
+        line-height: 1.5;
+        color: #86928B;
+    }
+}
+
+.social-links {
+    display: flex;
+    gap: 30px;
+}
+
+@media(max-width:690px) {
+    .footer__content {
+        flex-wrap: wrap;
+    }
+
+    .footer__info {
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+@media(max-width:570px) {
+
+    .footer__menu {
+        border-bottom: 1px solid #C3D1C6;
+        padding-bottom: 16px;
+        justify-content: space-between;
+    }
+
+    .footer__social {
+        padding-top: 16px;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer__policy {
+        flex-direction: row;
+    }
+}
+
+@media(max-width:475px) {
+    .footer__content {
+        display: none;
+        justify-content: space-between;
+    }
+
+    .footer-logo_mobile {
+        width: 100%;
+    }
+
+    .footer__content_mobile {
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 20px;
+        justify-content: space-between;
+    }
+
+    .footer__contacts_mobile {
+        width: 50%;
+    }
+
+    .footer-menu__item {
+        width: 40%;
+    }
+
+    .footer-menu__title {
+        font-size: 16px;
+        line-height: 1.18;
+    }
+
+    .footer-menu__link {
+        font-size: 16px;
+        line-height: 1.5;
+        color: #86928B;
+    }
+}

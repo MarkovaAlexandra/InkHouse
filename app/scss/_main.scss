@@ -1,0 +1,76 @@
+// //-----------------------main----------------------
+// .banner-top {
+//     display: flex;
+//     align-items: center;
+//     gap: 30px;
+//     justify-content: space-between;
+
+//     &__picture {
+//         width: 49%;
+//     }
+
+//     &__descr {
+//         width: 49%;
+//     }
+// }
+
+// .about {
+
+//     &__title {
+//         font-weight: 500;
+//         font-size: 60px;
+//         line-height: 1.1;
+//         margin-bottom: 20px;
+//     }
+
+//     &__desr {
+//         font-size: 18px;
+//         line-height: 1.5;
+//         font-weight: 500;
+//         color: #86928B;
+//         margin-bottom: 60px;
+//     }
+// }
+
+// .btn {
+//     padding: 21px 60px;
+//     font-size: 20px;
+//     line-height: 1.17;
+//     color: $mainGreen;
+//     border: 1px solid $mainGreen;
+//     background-color: transparent;
+//     transition: all 0.3s ease-in-out;
+
+// }
+
+// .btn:hover {
+//     background-color: $mainGreen;
+//     color: #fff;
+// }
+
+// .btn:active {
+//     background-color: $darkGreen;
+//     color: #fff;
+
+// }
+
+// .green {
+//     color: $mainGreen;
+// }
+
+// @media(max-width:900px) {
+//     .about__title {
+//         font-weight: 500;
+//         font-size: 40px;
+//         line-height: 1;
+//         margin-bottom: 20px;
+//     }
+
+//     .about__desr {
+//         font-size: 18px;
+//         line-height: 1.5;
+//         font-weight: 500;
+//         color: #86928B;
+//         margin-bottom: 60px;
+//     }
+// }
